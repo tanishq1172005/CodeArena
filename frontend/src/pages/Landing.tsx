@@ -68,7 +68,7 @@ export default function Landing() {
               <Button
                 size="lg"
                 className="bg-blue-600 hover:bg-blue-700"
-                onClick={() => navigate("/signup")}
+                onClick={() => navigate("/register")}
               >
                 Get Started
                 <ArrowRight className="ml-2 h-4 w-4" />
