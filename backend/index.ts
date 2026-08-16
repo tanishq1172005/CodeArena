@@ -10,7 +10,7 @@ dotenv.config({
 const app =express()
 app.use(express.json())
 app.use(cors({
-    origin:'*'
+    origin:'https://code-arena-sigma-red.vercel.app'
 }))
 
 import userRouter from './src/routes/user.route'
